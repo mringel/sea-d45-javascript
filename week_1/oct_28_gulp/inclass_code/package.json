@@ -1,26 +1,12 @@
 {
   "name": "inclass_code",
   "version": "0.1.0",
-<<<<<<< HEAD
-  "description": "\"super awesome greeting app\"",
-=======
   "description": "super awesome app for greeting thing",
->>>>>>> tylers/master
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-<<<<<<< HEAD
-    "test": "./node_modules/mocha/bin/mocha test"
-  },
-  "author": "matthew",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^3.4.0",
-    "gulp-jshint": "^1.11.2",
-    "gulp-mocha": "^2.1.3",
-=======
     "test": "./node_modules/mocha/bin/mocha test",
     "start": "echo 'hello world'",
     "custom": "echo 'custom'"
@@ -29,7 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.0",
->>>>>>> tylers/master
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
     "mocha": "^2.3.3"
   }
 }
